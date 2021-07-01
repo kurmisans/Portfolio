@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior:smooth;
+}
+footer{
+    clear: both;
+    text-align: center;
+    color: white;
+    background-color: black;
+
+}
+
+/*Navbar*/
+.navbar{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: sticky;
+    align-items: center;
+    top:0;
+
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+    margin: 20px 0px; 
+}
+.navbar ul li{
+    font-family: century;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 8px 25px;
+    transition: all .5s ease;
+}
+.navbar ul li a:hover{
+    background-color: white;
+    color: black;
+    box-shadow: 0 0 10px white;
+}
+
+/*Sākums/home*/
+#home{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 840px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+#home::before{
+    content: "";
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    background: url('bildes/BATCC full-49.jpg') no-repeat center center/cover;
+    height: 900px;
+    width: 100%;
+    z-index: -1;
+    opacity: .7;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    /*border: 1px solid white;*/
+    align-items: center;
+    position: absolute;
+    top: 30%;
+    right: 5%;
+}
+.headings{
+    font-family: century;
+    font-size: 3rem;
+    text-align: center;
+    margin: 40px 0px;
+}
+.btn{
+    padding: 10px 35px;
+    background-color: transparent;
+    border: 1px solid white;
+    color:white;
+    outline: none;
+    transition: .6s ease;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    box-shadow: 0 0 10px white, 0 0 10px white, 0 0 15px white;
+    font-weight: bold;
+}
+/*Par mani*/
+#about{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 20px;
+    margin-bottom: 20px;
+    
+
+}
+#pic{
+    display: flex;
+}
+#pic img{
+    width: 574px;
+    height: 400px;
+}
+#intro{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    padding: 10px;
+    font-size: 1.2rem ;
+}
+#prasmes{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    padding: 20px;
+}
+
+
+/*Projekti*/
+#portfolio{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.5);
+    color:white;
+    align-items: center;
+    padding: 0.1rem;
+}
+
+
+/*Contact me*/
+#contact{
+    display: flex;
+    flex-direction:column;
+    background-color: rgba(0, 0, 0, 0.7);
+    color:white;
+    align-items:center;
+    padding: 30px;
+    
+}
+
+.icons i{
+    
+    padding: 10px 35px;
+    color: #fff;
+}
+
+
+.btns{
+    padding: 10px 35px;
+    background-color: transparent;
+    border: 1px solid white;
+    color:white;
+    outline: none;
+    transition: .6s ease;
+}
+.btns:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    box-shadow: 0 0 10px white, 0 0 10px white, 0 0 15px white;
+    font-weight: bold;
+}
+
+/*.row{
+    display:flex;   
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 450px;
+    border: 1px solid black;
+    margin:10px;
+    align-items: center;
+    text-align: justify;
+    padding: 10px;
+}*/
+
+
